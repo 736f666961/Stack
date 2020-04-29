@@ -1,0 +1,55 @@
+#all{
+    margin: 150px;
+}
+#push-input{
+    padding: 14px;
+    width: 300px;
+}
+
+#push-button, #pop-button{
+    margin-left: 30px;
+    margin-top: 20px;
+    padding: 14px;
+    width: 100px;
+    border: none;
+}
+
+#push-button{
+    background-color: #6c5ce7;
+}
+
+#pop-button{
+    background-color: #00cec9;
+}
+
+input::placeholder{
+    text-align: center;
+}
+
+#top-button, #bottom-button{
+    border: none;
+    margin-left: 200px;
+    margin-top: 12px;
+    padding: 15px;
+    width: 60px;
+}
+
+#top-button{
+    transform: rotate(-90deg);
+    /* background-color: #fd79a8; */
+    background-color: #e84393;
+}
+
+#result{
+    border: 1px solid #00b894;
+    width: 100px;
+}
+
+h3 b{
+    color: #636e72;
+}
+
+#bottom-button{
+    transform: rotate(-270deg);
+    background-color: #e84393;
+}
